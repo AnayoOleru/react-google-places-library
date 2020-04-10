@@ -8,7 +8,7 @@ npm install --save rgpl
 
 ## Getting Started
 
-The Q module can be loaded as:
+The React Google Places Library can be loaded as:
 
 -   install the package
 -   import *Search* component from the library.
