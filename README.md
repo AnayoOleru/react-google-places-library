@@ -6,6 +6,8 @@ A straight forward react npm package, using the google places API to easily sear
 npm install --save rgpl
 ```
 
+[React Google Places Library Package](https://www.npmjs.com/package/rgpl)
+
 ## Getting Started
 
 The React Google Places Library can be loaded as:
