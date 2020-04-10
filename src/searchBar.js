@@ -105,6 +105,7 @@ class SearchBar extends Component {
       searchIconButton,
       iconButtonHidden,
       iconButtonDisabled,
+      placeholder,
       icon,
       ...inputProps
     } = this.props
@@ -119,7 +120,7 @@ class SearchBar extends Component {
             inputRef={this.inputRef}
             // onBlur={this.handleBlur}
             value={value}
-            placeholder= 'Search'
+            placeholder= {placeholder}
             onChange={this.handleInput}
             onKeyUp={this.handleKeyUp}
             onFocus={this.handleFocus}

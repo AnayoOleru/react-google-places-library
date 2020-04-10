@@ -8,6 +8,11 @@ npm install --save rgpl
 
 [React Google Places Library Package](https://www.npmjs.com/package/rgpl)
 
+## How React Google Places works
+Created a single page app to demonstrate how the React Google Places API works, click on the link below:
+
+[View SPA](https://react-google-places-library.now.sh/)
+
 ## Getting Started
 
 The React Google Places Library can be loaded as:
@@ -40,6 +45,7 @@ The React Google Places Library can be loaded as:
               }}
               callbackFromParent={this.myCallback}
               value={this.state.city}
+              placeholder='search city'
                />
 ```
 
@@ -165,6 +171,15 @@ the box around the inputContainer props.
                 display: 'flex',
                 justifyContent: 'space-between'            
               }}
+               />
+```
+
+## placeholder
+Input placeholder
+
+```
+            <Search 
+              placeholder='search city'
                />
 ```
 

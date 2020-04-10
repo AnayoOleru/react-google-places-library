@@ -61,10 +61,11 @@ class Search extends Component {
           url={`https://maps.googleapis.com/maps/api/js?key=${this.props.apiKey}&libraries=places`}
           onLoad={this.handleScriptLoad}
         />
-        <SearchBar id="autocomplete" placeholder="" hinttext="Search City"
+        <SearchBar id="autocomplete" hinttext="Search City"
           containerStyle={this.props.containerStyle}
           inputStyle = {this.props.inputStyle}
           inputContainer = {this.props.inputContainer}
+          placeholder={this.props.placeholder}
         />
       </div>
     );
