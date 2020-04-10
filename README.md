@@ -1,4 +1,6 @@
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs) [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde) [![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=flat)]() [![GitHub contributors](https://img.shields.io/github/contributors/cdnjs/cdnjs.svg?style=flat)]()
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AnayoOleru/react-google-places-library/issues) [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs) [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde) 
+
+[![HitCount](http://hits.dwyl.com/dwyl/start-here.svg)](http://hits.dwyl.com/AnayoOleru/react-google-places-library)
 # React Google Places Library
 A straight forward react npm package, using the google places API to easily search for places. Easy to integrate, more faster to use. Comes with a ready made search input component.
 
