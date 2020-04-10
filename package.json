@@ -1,0 +1,53 @@
+{
+    "name": "rgpl",
+    "version": "1.0.0",
+    "description": "React Google Places API library",
+    "main": "./lib/index.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack",
+        "test": "jest"
+    },
+    "peerDependencies": {
+        "prop-types": "^15.6.0",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0"
+    },
+    "devDependencies": {
+        "@material-ui/core": "^3.0.2",
+        "@material-ui/icons": "^3.0.1",
+        "babel-core": "^6.21.0",
+        "babel-jest": "^25.3.0",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.16.0",
+        "babel-preset-stage-0": "^6.24.1",
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.2",
+        "enzyme-to-json": "^3.4.4",
+        "jest": "^25.3.0",
+        "path": "^0.12.7",
+        "prop-types": "^15.6.0",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0",
+        "webpack": "^4.5.0",
+        "webpack-cli": "^3.2.1"
+    },
+    "dependencies": {
+        "react-load-script": "0.0.6"
+    },
+    "author": "Anayo Oleru <anayo_oleru@outlook.com>",
+    "keywords": [
+        "react",
+        "google-places API",
+        "google places"
+    ],
+    "jest": {
+        "snapshotSerializers": [
+            "enzyme-to-json/serializer"
+        ],
+        "setupFiles": [
+            "./__test__/setupTest.js"
+        ]
+    }
+}
